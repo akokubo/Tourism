@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'spots/index'
+
   get 'courses/index'
 
   get 'map/index'
