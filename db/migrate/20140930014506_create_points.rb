@@ -1,7 +1,6 @@
 class CreatePoints < ActiveRecord::Migration
   def change
     create_table :points do |t|
-      t.integer :id
       t.references :course, index: true
       t.float :lat
       t.float :lng
