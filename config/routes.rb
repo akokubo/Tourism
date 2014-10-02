@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get 'courses/index'
 
-  get 'map/index'
+  get 'map' => "map#index", as: "map"
 
   get 'home/index'
 
